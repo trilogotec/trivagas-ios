@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1494CDAB9D40BCEB31771500 /* Pods_Trivagas_TrivagasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5753B3B7C72DABC166C8FE /* Pods_Trivagas_TrivagasUITests.framework */; };
 		29B1F44B2376F09F0036D46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F44A2376F09F0036D46E /* AppDelegate.swift */; };
 		29B1F44D2376F09F0036D46E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F44C2376F09F0036D46E /* SceneDelegate.swift */; };
 		29B1F4502376F09F0036D46E /* Trivagas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F44E2376F09F0036D46E /* Trivagas.xcdatamodeld */; };
@@ -16,6 +17,8 @@
 		29B1F45A2376F0A10036D46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B1F4582376F0A10036D46E /* LaunchScreen.storyboard */; };
 		29B1F4652376F0A10036D46E /* TrivagasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F4642376F0A10036D46E /* TrivagasTests.swift */; };
 		29B1F4702376F0A10036D46E /* TrivagasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F46F2376F0A10036D46E /* TrivagasUITests.swift */; };
+		A257EEDDA7B7441266B6B277 /* Pods_Trivagas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE48DE1C369867E11F4C0E1D /* Pods_Trivagas.framework */; };
+		D0581E9C05BF0D036935DF5C /* Pods_TrivagasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D654A16757B380E1E6A0298E /* Pods_TrivagasTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2430B0EB86B13D4EEA4E4AD8 /* Pods-Trivagas-TrivagasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivagas-TrivagasUITests.release.xcconfig"; path = "Target Support Files/Pods-Trivagas-TrivagasUITests/Pods-Trivagas-TrivagasUITests.release.xcconfig"; sourceTree = "<group>"; };
 		29B1F4472376F09F0036D46E /* Trivagas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivagas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B1F44A2376F09F0036D46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29B1F44C2376F09F0036D46E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		29B1F46B2376F0A10036D46E /* TrivagasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B1F46F2376F0A10036D46E /* TrivagasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagasUITests.swift; sourceTree = "<group>"; };
 		29B1F4712376F0A10036D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35D3DFCA80876369A7C60ED7 /* Pods-TrivagasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagasTests.release.xcconfig"; path = "Target Support Files/Pods-TrivagasTests/Pods-TrivagasTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C3C4FA3E5504EE8D8DDD9B0 /* Pods-Trivagas-TrivagasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivagas-TrivagasUITests.debug.xcconfig"; path = "Target Support Files/Pods-Trivagas-TrivagasUITests/Pods-Trivagas-TrivagasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A5753B3B7C72DABC166C8FE /* Pods_Trivagas_TrivagasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivagas_TrivagasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		765CB5E20765DFA9E95829CB /* Pods-Trivagas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivagas.debug.xcconfig"; path = "Target Support Files/Pods-Trivagas/Pods-Trivagas.debug.xcconfig"; sourceTree = "<group>"; };
+		806EEC8893F4E4E11D513BB0 /* Pods-Trivagas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivagas.release.xcconfig"; path = "Target Support Files/Pods-Trivagas/Pods-Trivagas.release.xcconfig"; sourceTree = "<group>"; };
+		CE48DE1C369867E11F4C0E1D /* Pods_Trivagas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivagas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D654A16757B380E1E6A0298E /* Pods_TrivagasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrivagasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1D355DB43F96BEE339EAB6 /* Pods-TrivagasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrivagasTests.debug.xcconfig"; path = "Target Support Files/Pods-TrivagasTests/Pods-TrivagasTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A257EEDDA7B7441266B6B277 /* Pods_Trivagas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0581E9C05BF0D036935DF5C /* Pods_TrivagasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1494CDAB9D40BCEB31771500 /* Pods_Trivagas_TrivagasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				29B1F4632376F0A10036D46E /* TrivagasTests */,
 				29B1F46E2376F0A10036D46E /* TrivagasUITests */,
 				29B1F4482376F09F0036D46E /* Products */,
+				D8F0B2DD4467158BA8F2C574 /* Pods */,
+				958A8805B136E302E1707FF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +156,30 @@
 			path = TrivagasUITests;
 			sourceTree = "<group>";
 		};
+		958A8805B136E302E1707FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE48DE1C369867E11F4C0E1D /* Pods_Trivagas.framework */,
+				6A5753B3B7C72DABC166C8FE /* Pods_Trivagas_TrivagasUITests.framework */,
+				D654A16757B380E1E6A0298E /* Pods_TrivagasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F0B2DD4467158BA8F2C574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				765CB5E20765DFA9E95829CB /* Pods-Trivagas.debug.xcconfig */,
+				806EEC8893F4E4E11D513BB0 /* Pods-Trivagas.release.xcconfig */,
+				3C3C4FA3E5504EE8D8DDD9B0 /* Pods-Trivagas-TrivagasUITests.debug.xcconfig */,
+				2430B0EB86B13D4EEA4E4AD8 /* Pods-Trivagas-TrivagasUITests.release.xcconfig */,
+				DE1D355DB43F96BEE339EAB6 /* Pods-TrivagasTests.debug.xcconfig */,
+				35D3DFCA80876369A7C60ED7 /* Pods-TrivagasTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29B1F4742376F0A10036D46E /* Build configuration list for PBXNativeTarget "Trivagas" */;
 			buildPhases = (
+				9745DC5417B71903D493DA2A /* [CP] Check Pods Manifest.lock */,
 				29B1F4432376F09F0036D46E /* Sources */,
 				29B1F4442376F09F0036D46E /* Frameworks */,
 				29B1F4452376F09F0036D46E /* Resources */,
@@ -163,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29B1F4772376F0A10036D46E /* Build configuration list for PBXNativeTarget "TrivagasTests" */;
 			buildPhases = (
+				0E948FC3518C654528FE94A7 /* [CP] Check Pods Manifest.lock */,
 				29B1F45C2376F0A10036D46E /* Sources */,
 				29B1F45D2376F0A10036D46E /* Frameworks */,
 				29B1F45E2376F0A10036D46E /* Resources */,
@@ -181,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29B1F47A2376F0A10036D46E /* Build configuration list for PBXNativeTarget "TrivagasUITests" */;
 			buildPhases = (
+				158D7910705B2F06426ECE1B /* [CP] Check Pods Manifest.lock */,
 				29B1F4672376F0A10036D46E /* Sources */,
 				29B1F4682376F0A10036D46E /* Frameworks */,
 				29B1F4692376F0A10036D46E /* Resources */,
@@ -264,6 +308,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E948FC3518C654528FE94A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrivagasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		158D7910705B2F06426ECE1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivagas-TrivagasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9745DC5417B71903D493DA2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivagas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29B1F4432376F09F0036D46E /* Sources */ = {
@@ -436,6 +549,7 @@
 		};
 		29B1F4752376F0A10036D46E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765CB5E20765DFA9E95829CB /* Pods-Trivagas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +570,7 @@
 		};
 		29B1F4762376F0A10036D46E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806EEC8893F4E4E11D513BB0 /* Pods-Trivagas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +591,7 @@
 		};
 		29B1F4782376F0A10036D46E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1D355DB43F96BEE339EAB6 /* Pods-TrivagasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +614,7 @@
 		};
 		29B1F4792376F0A10036D46E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D3DFCA80876369A7C60ED7 /* Pods-TrivagasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +637,7 @@
 		};
 		29B1F47B2376F0A10036D46E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3C4FA3E5504EE8D8DDD9B0 /* Pods-Trivagas-TrivagasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +658,7 @@
 		};
 		29B1F47C2376F0A10036D46E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2430B0EB86B13D4EEA4E4AD8 /* Pods-Trivagas-TrivagasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

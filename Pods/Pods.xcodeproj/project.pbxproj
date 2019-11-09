@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F46BAF45DA5103C381D37FCA6696A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		30DA39A10DCB54023039E7FAF492F434 /* Pods-Trivagas-TrivagasUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA7016A82C46FFC0EE211BC1C65658C /* Pods-Trivagas-TrivagasUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		643735AFF7186528B414C24C97A6DAAC /* Pods-TrivagasTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4147179B7476146265A9DB433EAAE616 /* Pods-TrivagasTests-dummy.m */; };
+		72DD150A7D43A3D5FAB89238E0DA9956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A384020D87DA44DF9FA15D8D61FB632D /* Pods-Trivagas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AF4DA1F0AAB51E3A087DC83B1A4E3 /* Pods-Trivagas-dummy.m */; };
+		BE10DE737F1E5C89D242CA98993435BC /* Pods-TrivagasTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4551F5E82627EC6F8AE616459CD62AD4 /* Pods-TrivagasTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69A66F726B78C4268CCFC7210D2F27E /* Pods-Trivagas-TrivagasUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50C04B125846D48DF857AA7FDF215E /* Pods-Trivagas-TrivagasUITests-dummy.m */; };
+		D5D04BD8AEA487A5F4CD20F2232E2393 /* Pods-Trivagas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8EBA45B84ABB6563284F2C1005ED12 /* Pods-Trivagas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE75F788977AC01F895558F09578F238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		964D583BCDF86EC4A90C00938BAC3DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588C8FFFAD756DD3EFB571A210A319D2;
+			remoteInfo = "Pods-Trivagas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0287E5FEFD5D6872C9D59528C701460B /* Pods-Trivagas-TrivagasUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Trivagas-TrivagasUITests.modulemap"; sourceTree = "<group>"; };
+		090B022CB4231F9F60F694BAA4E40888 /* Pods-Trivagas-TrivagasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trivagas-TrivagasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B873AC5586149240C7BEA1B02B3DAA1 /* Pods_TrivagasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrivagasTests.framework; path = "Pods-TrivagasTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD07E918DBC416CF58DFD6A9F2A0D3C /* Pods-Trivagas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Trivagas-acknowledgements.markdown"; sourceTree = "<group>"; };
+		187C93E85390E06184013BA138FF5085 /* Pods-Trivagas-TrivagasUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Trivagas-TrivagasUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F50C04B125846D48DF857AA7FDF215E /* Pods-Trivagas-TrivagasUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Trivagas-TrivagasUITests-dummy.m"; sourceTree = "<group>"; };
+		4147179B7476146265A9DB433EAAE616 /* Pods-TrivagasTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrivagasTests-dummy.m"; sourceTree = "<group>"; };
+		4551F5E82627EC6F8AE616459CD62AD4 /* Pods-TrivagasTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrivagasTests-umbrella.h"; sourceTree = "<group>"; };
+		5430BAE1D88D202376F9061AAD3B61C5 /* Pods-Trivagas-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trivagas-Info.plist"; sourceTree = "<group>"; };
+		59150DDCFCFFA91CF7E0009E1693DB20 /* Pods-TrivagasTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrivagasTests.modulemap"; sourceTree = "<group>"; };
+		5BA379DEAB7DADF9987AA37F58373D07 /* Pods_Trivagas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Trivagas.framework; path = "Pods-Trivagas.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8EBA45B84ABB6563284F2C1005ED12 /* Pods-Trivagas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Trivagas-umbrella.h"; sourceTree = "<group>"; };
+		647314356CEA3BD2D42F80AB6D68D36E /* Pods-TrivagasTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrivagasTests-Info.plist"; sourceTree = "<group>"; };
+		77FB628E85DECC1F820779E4BD3D7F83 /* Pods_Trivagas_TrivagasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Trivagas_TrivagasUITests.framework; path = "Pods-Trivagas-TrivagasUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B29E7CE036981E47E4829CB3D8C9405 /* Pods-Trivagas-TrivagasUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trivagas-TrivagasUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95C140EC3DEE78D2D2C21BD8554E455E /* Pods-Trivagas-TrivagasUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trivagas-TrivagasUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6686B25A5DF4C2833F00D17DE8BB307 /* Pods-Trivagas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Trivagas-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAA7016A82C46FFC0EE211BC1C65658C /* Pods-Trivagas-TrivagasUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Trivagas-TrivagasUITests-umbrella.h"; sourceTree = "<group>"; };
+		C1B428C7047A31703BF6A1D428CB20D9 /* Pods-TrivagasTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrivagasTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC16A44BA190F4E8F225A5B7086435A7 /* Pods-Trivagas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trivagas.debug.xcconfig"; sourceTree = "<group>"; };
+		D3E041B511E38D0BA5E15D939EDC56C4 /* Pods-Trivagas-TrivagasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trivagas-TrivagasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D44B5AFC621F6A693384AC8DA5B3A9E2 /* Pods-Trivagas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Trivagas.modulemap"; sourceTree = "<group>"; };
+		DCAD3AE738ECFAB2E156B146ED5013BA /* Pods-TrivagasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrivagasTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD2C723F4873A014779108523A6A1D48 /* Pods-TrivagasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrivagasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E42AF4DA1F0AAB51E3A087DC83B1A4E3 /* Pods-Trivagas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Trivagas-dummy.m"; sourceTree = "<group>"; };
+		F171F8D7C2E7862EB5C895A2F8F76C54 /* Pods-TrivagasTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrivagasTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3526DDD7FD0C6AB78098DD31A9C6D05 /* Pods-Trivagas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Trivagas.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2197D741FEEEA6CD795DACCF94E20E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F46BAF45DA5103C381D37FCA6696A26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454E64187613445D1F13ACF23C6E8930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD150A7D43A3D5FAB89238E0DA9956 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E26145947E926299D9F7A1FE6074553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75F788977AC01F895558F09578F238 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4104E26355C02FCD6776A377EA70D2E3 /* Pods-Trivagas */ = {
+			isa = PBXGroup;
+			children = (
+				D44B5AFC621F6A693384AC8DA5B3A9E2 /* Pods-Trivagas.modulemap */,
+				0FD07E918DBC416CF58DFD6A9F2A0D3C /* Pods-Trivagas-acknowledgements.markdown */,
+				A6686B25A5DF4C2833F00D17DE8BB307 /* Pods-Trivagas-acknowledgements.plist */,
+				E42AF4DA1F0AAB51E3A087DC83B1A4E3 /* Pods-Trivagas-dummy.m */,
+				5430BAE1D88D202376F9061AAD3B61C5 /* Pods-Trivagas-Info.plist */,
+				5E8EBA45B84ABB6563284F2C1005ED12 /* Pods-Trivagas-umbrella.h */,
+				CC16A44BA190F4E8F225A5B7086435A7 /* Pods-Trivagas.debug.xcconfig */,
+				F3526DDD7FD0C6AB78098DD31A9C6D05 /* Pods-Trivagas.release.xcconfig */,
+			);
+			name = "Pods-Trivagas";
+			path = "Target Support Files/Pods-Trivagas";
+			sourceTree = "<group>";
+		};
+		46BBB05B9D8C72D016908A1F4DBAB04C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4104E26355C02FCD6776A377EA70D2E3 /* Pods-Trivagas */,
+				B6D9157D252621F96DCFA34CECE9AC3D /* Pods-Trivagas-TrivagasUITests */,
+				FD0844EAFD5A574CA058A1D428E54B0F /* Pods-TrivagasTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79E76C223A1820C7BFF81DD7C81E1C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA379DEAB7DADF9987AA37F58373D07 /* Pods_Trivagas.framework */,
+				77FB628E85DECC1F820779E4BD3D7F83 /* Pods_Trivagas_TrivagasUITests.framework */,
+				0B873AC5586149240C7BEA1B02B3DAA1 /* Pods_TrivagasTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D9157D252621F96DCFA34CECE9AC3D /* Pods-Trivagas-TrivagasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0287E5FEFD5D6872C9D59528C701460B /* Pods-Trivagas-TrivagasUITests.modulemap */,
+				187C93E85390E06184013BA138FF5085 /* Pods-Trivagas-TrivagasUITests-acknowledgements.markdown */,
+				7B29E7CE036981E47E4829CB3D8C9405 /* Pods-Trivagas-TrivagasUITests-acknowledgements.plist */,
+				3F50C04B125846D48DF857AA7FDF215E /* Pods-Trivagas-TrivagasUITests-dummy.m */,
+				95C140EC3DEE78D2D2C21BD8554E455E /* Pods-Trivagas-TrivagasUITests-Info.plist */,
+				BAA7016A82C46FFC0EE211BC1C65658C /* Pods-Trivagas-TrivagasUITests-umbrella.h */,
+				090B022CB4231F9F60F694BAA4E40888 /* Pods-Trivagas-TrivagasUITests.debug.xcconfig */,
+				D3E041B511E38D0BA5E15D939EDC56C4 /* Pods-Trivagas-TrivagasUITests.release.xcconfig */,
+			);
+			name = "Pods-Trivagas-TrivagasUITests";
+			path = "Target Support Files/Pods-Trivagas-TrivagasUITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				79E76C223A1820C7BFF81DD7C81E1C73 /* Products */,
+				46BBB05B9D8C72D016908A1F4DBAB04C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD0844EAFD5A574CA058A1D428E54B0F /* Pods-TrivagasTests */ = {
+			isa = PBXGroup;
+			children = (
+				59150DDCFCFFA91CF7E0009E1693DB20 /* Pods-TrivagasTests.modulemap */,
+				C1B428C7047A31703BF6A1D428CB20D9 /* Pods-TrivagasTests-acknowledgements.markdown */,
+				F171F8D7C2E7862EB5C895A2F8F76C54 /* Pods-TrivagasTests-acknowledgements.plist */,
+				4147179B7476146265A9DB433EAAE616 /* Pods-TrivagasTests-dummy.m */,
+				647314356CEA3BD2D42F80AB6D68D36E /* Pods-TrivagasTests-Info.plist */,
+				4551F5E82627EC6F8AE616459CD62AD4 /* Pods-TrivagasTests-umbrella.h */,
+				DD2C723F4873A014779108523A6A1D48 /* Pods-TrivagasTests.debug.xcconfig */,
+				DCAD3AE738ECFAB2E156B146ED5013BA /* Pods-TrivagasTests.release.xcconfig */,
+			);
+			name = "Pods-TrivagasTests";
+			path = "Target Support Files/Pods-TrivagasTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DDF0A8413BE1E22FDD265C1B9E868AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D04BD8AEA487A5F4CD20F2232E2393 /* Pods-Trivagas-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A22A7363A328D68165A5D3E9ADFC9FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DA39A10DCB54023039E7FAF492F434 /* Pods-Trivagas-TrivagasUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B962DD3F13DC42068F81AC1651D4E6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE10DE737F1E5C89D242CA98993435BC /* Pods-TrivagasTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46115D4EA3FD05F4B74830B0D45B5D57 /* Pods-Trivagas-TrivagasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18F8F2683D1C2F9DC46A31FCAB8753D /* Build configuration list for PBXNativeTarget "Pods-Trivagas-TrivagasUITests" */;
+			buildPhases = (
+				4A22A7363A328D68165A5D3E9ADFC9FE /* Headers */,
+				875B9179FCA553A63129212E232987FC /* Sources */,
+				454E64187613445D1F13ACF23C6E8930 /* Frameworks */,
+				CF681C9C164918D86242402E744318DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Trivagas-TrivagasUITests";
+			productName = "Pods-Trivagas-TrivagasUITests";
+			productReference = 77FB628E85DECC1F820779E4BD3D7F83 /* Pods_Trivagas_TrivagasUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		588C8FFFAD756DD3EFB571A210A319D2 /* Pods-Trivagas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAA2F22DA900D122907939CF8F93E8A /* Build configuration list for PBXNativeTarget "Pods-Trivagas" */;
+			buildPhases = (
+				3DDF0A8413BE1E22FDD265C1B9E868AC /* Headers */,
+				C1639067A97967F7AF2DB4438AF7057C /* Sources */,
+				2197D741FEEEA6CD795DACCF94E20E5A /* Frameworks */,
+				F7D30307374ED53D4025097757506CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Trivagas";
+			productName = "Pods-Trivagas";
+			productReference = 5BA379DEAB7DADF9987AA37F58373D07 /* Pods_Trivagas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F5AA48F1E42DD15051C3E1E22D4E54A /* Pods-TrivagasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDF964A8A72EE93BA3B13FA9CDE8A83 /* Build configuration list for PBXNativeTarget "Pods-TrivagasTests" */;
+			buildPhases = (
+				6B962DD3F13DC42068F81AC1651D4E6D /* Headers */,
+				82B7CD6FCBA3910AEEA9EB333858CCEF /* Sources */,
+				6E26145947E926299D9F7A1FE6074553 /* Frameworks */,
+				886C7BD42361B7258B3E08DAA3CDD8FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750A4E5E6F4D29C531A5B0C9AEF6220E /* PBXTargetDependency */,
+			);
+			name = "Pods-TrivagasTests";
+			productName = "Pods-TrivagasTests";
+			productReference = 0B873AC5586149240C7BEA1B02B3DAA1 /* Pods_TrivagasTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 79E76C223A1820C7BFF81DD7C81E1C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588C8FFFAD756DD3EFB571A210A319D2 /* Pods-Trivagas */,
+				46115D4EA3FD05F4B74830B0D45B5D57 /* Pods-Trivagas-TrivagasUITests */,
+				7F5AA48F1E42DD15051C3E1E22D4E54A /* Pods-TrivagasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		886C7BD42361B7258B3E08DAA3CDD8FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF681C9C164918D86242402E744318DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D30307374ED53D4025097757506CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B7CD6FCBA3910AEEA9EB333858CCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643735AFF7186528B414C24C97A6DAAC /* Pods-TrivagasTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875B9179FCA553A63129212E232987FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69A66F726B78C4268CCFC7210D2F27E /* Pods-Trivagas-TrivagasUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1639067A97967F7AF2DB4438AF7057C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A384020D87DA44DF9FA15D8D61FB632D /* Pods-Trivagas-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		750A4E5E6F4D29C531A5B0C9AEF6220E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Trivagas";
+			target = 588C8FFFAD756DD3EFB571A210A319D2 /* Pods-Trivagas */;
+			targetProxy = 964D583BCDF86EC4A90C00938BAC3DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D5F8D8724E323F06F4784C046FC4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090B022CB4231F9F60F694BAA4E40888 /* Pods-Trivagas-TrivagasUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Trivagas-TrivagasUITests/Pods-Trivagas-TrivagasUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trivagas-TrivagasUITests/Pods-Trivagas-TrivagasUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17074EDCCFE235B1BB1D19B55716C6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3526DDD7FD0C6AB78098DD31A9C6D05 /* Pods-Trivagas.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Trivagas/Pods-Trivagas-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trivagas/Pods-Trivagas.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51EF3A60018C1332CD57549A0369A9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCAD3AE738ECFAB2E156B146ED5013BA /* Pods-TrivagasTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrivagasTests/Pods-TrivagasTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrivagasTests/Pods-TrivagasTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E108DFE5B2D9F9C4AB6EC2C73A261F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC16A44BA190F4E8F225A5B7086435A7 /* Pods-Trivagas.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Trivagas/Pods-Trivagas-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trivagas/Pods-Trivagas.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F0E05941101C2DAFD4890AF225EC1AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD2C723F4873A014779108523A6A1D48 /* Pods-TrivagasTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrivagasTests/Pods-TrivagasTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrivagasTests/Pods-TrivagasTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBDFE3C5EF8A5C3243A17D80287E01E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E041B511E38D0BA5E15D939EDC56C4 /* Pods-Trivagas-TrivagasUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Trivagas-TrivagasUITests/Pods-Trivagas-TrivagasUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Trivagas-TrivagasUITests/Pods-Trivagas-TrivagasUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BDF964A8A72EE93BA3B13FA9CDE8A83 /* Build configuration list for PBXNativeTarget "Pods-TrivagasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0E05941101C2DAFD4890AF225EC1AE4 /* Debug */,
+				51EF3A60018C1332CD57549A0369A9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18F8F2683D1C2F9DC46A31FCAB8753D /* Build configuration list for PBXNativeTarget "Pods-Trivagas-TrivagasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D5F8D8724E323F06F4784C046FC4BC /* Debug */,
+				FBDFE3C5EF8A5C3243A17D80287E01E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAA2F22DA900D122907939CF8F93E8A /* Build configuration list for PBXNativeTarget "Pods-Trivagas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E108DFE5B2D9F9C4AB6EC2C73A261F2E /* Debug */,
+				17074EDCCFE235B1BB1D19B55716C6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
