@@ -26,15 +26,14 @@ struct OpportunityDetailsView: View {
             HStack {
                 CompanyAvatar()
                 CardHeader(opportunity: opportunity)
-            }
-            CardDivider()
+            }.padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
+            CardDivider().padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
             WebView(htmlString: opportunity.description)
                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-            CardDivider()
-            CellFooter(opportunity: opportunity)
-                  
+            CardDivider().padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
+            CellFooter(opportunity: opportunity).padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 30))
         }
-        .padding(EdgeInsets(top: 50, leading: 30, bottom: 10, trailing: 30))
+        .padding(EdgeInsets(top: 50, leading: 30, bottom: 10, trailing: 0))
         .navigationBarTitle(Text(opportunity.companyName), displayMode: .inline)
     }
 }

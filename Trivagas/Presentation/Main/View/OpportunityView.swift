@@ -29,6 +29,7 @@ struct OpportunityView: View {
                 OpportunityDetailsView(opportunity: self.opportunitySelected)
             }.onAppear {
                 UITableView.appearance().separatorStyle = .none
+                UITableView.appearance().showsVerticalScrollIndicator = false
                 self.populateOpportunityList()
             }
             .navigationBarTitle(Text("Vagas"), displayMode: .inline)
