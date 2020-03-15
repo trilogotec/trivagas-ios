@@ -13,20 +13,29 @@ struct OpportunityCell : View {
     let viewModel: OpportunityViewModel
     
     var body : some View {
-        HStack {
-            CompanyAvatar()
-            VStack(alignment: .center, spacing: 10) {
-                CardHeader(opportunity: opportunity)
-                CardDivider()
-                CellFooter(opportunity: opportunity, viewModel: viewModel)
-            }
-        }
+        CardContent(opportunity: opportunity, viewModel: viewModel)
         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
         .padding()
         .overlay(
             RoundedRectangle(cornerRadius: 3)
                 .stroke(Color("Purple"), lineWidth: 1)
         )
+    }
+}
+
+struct CardContent : View {
+    let opportunity: Opportunity
+    let viewModel: OpportunityViewModel
+    
+    var body: some View {
+        HStack {
+            CompanyAvatar()
+            VStack(alignment: .center, spacing: 10) {
+                CardHeader(opportunity: opportunity)
+                CardDivider()
+                CellFooter(opportunity: opportunity)
+            }
+        }
     }
 }
 
@@ -45,7 +54,6 @@ struct OpportunityCell_Previews: PreviewProvider {
                 .previewDisplayName("Dark")
                 .colorScheme(.dark)
                 .padding()
-                .background(Color.black)
         }
     }
 }
@@ -105,7 +113,6 @@ struct CardDivider: View {
 
 struct CellFooter: View {
     let opportunity: Opportunity
-    let viewModel: OpportunityViewModel
     
     var body: some View {
         HStack {
@@ -119,7 +126,7 @@ struct CellFooter: View {
             Image(systemName: "clock.fill")
                 .font(.subheadline)
                 .foregroundColor(Color("OpportunityRowIcons"))
-            Text(viewModel.formatPostedDays(opportunity.datePosted))
+            Text(StringFormatter.formatPostedDays(opportunity.datePosted))
                 .font(.subheadline)
                 .foregroundColor(Color("BodyText"))
         }

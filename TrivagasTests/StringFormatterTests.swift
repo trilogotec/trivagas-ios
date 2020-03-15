@@ -9,12 +9,10 @@
 import XCTest
 @testable import Trivagas
 
-class OpportunityViewModelTests: XCTestCase {
-    var viewModel: OpportunityViewModel?
-
+class StringFormatterTests: XCTestCase {
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        viewModel = OpportunityViewModel()
     }
 
     override func tearDown() {
@@ -26,10 +24,7 @@ class OpportunityViewModelTests: XCTestCase {
         let postedDays = 1
         
         // When
-        var result = ""
-        if let saveViewModel = viewModel {
-            result = saveViewModel.formatPostedDays(postedDays)
-        }
+        let result = StringFormatter.formatPostedDays(postedDays)
         
         // Then
         let expected = "1 dia atrás"
@@ -41,10 +36,7 @@ class OpportunityViewModelTests: XCTestCase {
         let postedDays = 3
         
         // When
-        var result = ""
-        if let saveViewModel = viewModel {
-            result = saveViewModel.formatPostedDays(postedDays)
-        }
+        let result = StringFormatter.formatPostedDays(postedDays)
         
         // Then
         let expected = "3 dias atrás"

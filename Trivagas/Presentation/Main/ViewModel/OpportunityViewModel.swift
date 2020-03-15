@@ -12,16 +12,6 @@ import Foundation
 class OpportunityViewModel : ObservableObject {
     @Published var listOfOpportunities = [Opportunity]()
     
-    func formatPostedDays(_ postedDays: Int) -> String {
-        var dayOrDays = "dia"
-        if(postedDays > 1) {
-            dayOrDays += "s"
-        }
-        
-        let formattedString = "\(postedDays) \(dayOrDays) atrás"
-        return formattedString
-    }
-    
     func getAllOpportunities() {
         DispatchQueue.global().async {
             var newListOfOpportunities = testOpportunityData

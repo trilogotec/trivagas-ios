@@ -14,15 +14,17 @@
 		29B1F4542376F0A10036D46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B1F4532376F0A10036D46E /* Assets.xcassets */; };
 		29B1F4572376F0A10036D46E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B1F4562376F0A10036D46E /* Preview Assets.xcassets */; };
 		29B1F45A2376F0A10036D46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B1F4582376F0A10036D46E /* LaunchScreen.storyboard */; };
-		29B1F4652376F0A10036D46E /* OpportunityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F4642376F0A10036D46E /* OpportunityViewModelTests.swift */; };
+		29B1F4652376F0A10036D46E /* StringFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F4642376F0A10036D46E /* StringFormatterTests.swift */; };
 		29B1F4702376F0A10036D46E /* TrivagasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F46F2376F0A10036D46E /* TrivagasUITests.swift */; };
 		A257EEDDA7B7441266B6B277 /* Pods_Trivagas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE48DE1C369867E11F4C0E1D /* Pods_Trivagas.framework */; };
 		D0581E9C05BF0D036935DF5C /* Pods_TrivagasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D654A16757B380E1E6A0298E /* Pods_TrivagasTests.framework */; };
 		E4554B36241BC36B00775428 /* OpportunityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4554B35241BC36B00775428 /* OpportunityViewModel.swift */; };
 		E4554B38241BE93600775428 /* Opportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4554B37241BE93600775428 /* Opportunity.swift */; };
+		E45683A8241E99EB00D7FF57 /* StringFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45683A7241E99EB00D7FF57 /* StringFormatter.swift */; };
 		E4ADB418241BEBA0005C7673 /* OpportunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ADB417241BEBA0005C7673 /* OpportunityView.swift */; };
 		E4ADB41A241BEC3A005C7673 /* OpportunityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ADB419241BEC3A005C7673 /* OpportunityCell.swift */; };
 		E4ADB41C241BECE7005C7673 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ADB41B241BECE7005C7673 /* UINavigationControllerExtensions.swift */; };
+		E4ADB425241C4B89005C7673 /* OpportunityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ADB424241C4B89005C7673 /* OpportunityDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +55,7 @@
 		29B1F4592376F0A10036D46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29B1F45B2376F0A10036D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B1F4602376F0A10036D46E /* TrivagasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29B1F4642376F0A10036D46E /* OpportunityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityViewModelTests.swift; sourceTree = "<group>"; };
+		29B1F4642376F0A10036D46E /* StringFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFormatterTests.swift; sourceTree = "<group>"; };
 		29B1F4662376F0A10036D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B1F46B2376F0A10036D46E /* TrivagasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivagasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B1F46F2376F0A10036D46E /* TrivagasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivagasUITests.swift; sourceTree = "<group>"; };
@@ -69,9 +71,11 @@
 		E4554B34241B9B3000775428 /* Trivagas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Trivagas.entitlements; sourceTree = "<group>"; };
 		E4554B35241BC36B00775428 /* OpportunityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityViewModel.swift; sourceTree = "<group>"; };
 		E4554B37241BE93600775428 /* Opportunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opportunity.swift; sourceTree = "<group>"; };
+		E45683A7241E99EB00D7FF57 /* StringFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFormatter.swift; sourceTree = "<group>"; };
 		E4ADB417241BEBA0005C7673 /* OpportunityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpportunityView.swift; sourceTree = "<group>"; };
 		E4ADB419241BEC3A005C7673 /* OpportunityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityCell.swift; sourceTree = "<group>"; };
 		E4ADB41B241BECE7005C7673 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
+		E4ADB424241C4B89005C7673 /* OpportunityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,12 +131,12 @@
 		29B1F4492376F09F0036D46E /* Trivagas */ = {
 			isa = PBXGroup;
 			children = (
-				E4554B34241B9B3000775428 /* Trivagas.entitlements */,
 				E44F73D8241AED0400558B1F /* Presentation */,
 				E44F73D9241AED1500558B1F /* Data */,
 				E44F73DA241AED1C00558B1F /* Domain */,
 				E44F73D7241AEAD300558B1F /* Support Files */,
 				29B1F4552376F0A10036D46E /* Preview Content */,
+				E4554B34241B9B3000775428 /* Trivagas.entitlements */,
 			);
 			path = Trivagas;
 			sourceTree = "<group>";
@@ -148,7 +152,7 @@
 		29B1F4632376F0A10036D46E /* TrivagasTests */ = {
 			isa = PBXGroup;
 			children = (
-				29B1F4642376F0A10036D46E /* OpportunityViewModelTests.swift */,
+				29B1F4642376F0A10036D46E /* StringFormatterTests.swift */,
 				29B1F4662376F0A10036D46E /* Info.plist */,
 			);
 			path = TrivagasTests;
@@ -200,6 +204,7 @@
 		E44F73D8241AED0400558B1F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				E4ADB421241C4B17005C7673 /* OpportunityDetails */,
 				E4ADB41D241BEE34005C7673 /* Extensions */,
 				E44F73DC241AED9A00558B1F /* Main */,
 				E44F73DB241AED8C00558B1F /* Delegates */,
@@ -218,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				E4ADB420241BF2AD005C7673 /* Entities */,
+				E45683A9241E99FA00D7FF57 /* Helpers */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -238,6 +244,14 @@
 				E4ADB41F241BEE7D005C7673 /* ViewModel */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		E45683A9241E99FA00D7FF57 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E45683A7241E99EB00D7FF57 /* StringFormatter.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		E4ADB41D241BEE34005C7673 /* Extensions */ = {
@@ -271,6 +285,22 @@
 				E4554B37241BE93600775428 /* Opportunity.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		E4ADB421241C4B17005C7673 /* OpportunityDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E4ADB422241C4B2E005C7673 /* View */,
+			);
+			path = OpportunityDetails;
+			sourceTree = "<group>";
+		};
+		E4ADB422241C4B2E005C7673 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4ADB424241C4B89005C7673 /* OpportunityDetailsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ADB425241C4B89005C7673 /* OpportunityDetailsView.swift in Sources */,
 				29B1F44B2376F09F0036D46E /* AppDelegate.swift in Sources */,
 				E4ADB41A241BEC3A005C7673 /* OpportunityCell.swift in Sources */,
 				E4554B36241BC36B00775428 /* OpportunityViewModel.swift in Sources */,
@@ -484,6 +515,7 @@
 				E4554B38241BE93600775428 /* Opportunity.swift in Sources */,
 				29B1F44D2376F09F0036D46E /* SceneDelegate.swift in Sources */,
 				E4ADB41C241BECE7005C7673 /* UINavigationControllerExtensions.swift in Sources */,
+				E45683A8241E99EB00D7FF57 /* StringFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B1F4652376F0A10036D46E /* OpportunityViewModelTests.swift in Sources */,
+				29B1F4652376F0A10036D46E /* StringFormatterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +692,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = trilogo.Trivagas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
@@ -684,6 +717,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = trilogo.Trivagas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
