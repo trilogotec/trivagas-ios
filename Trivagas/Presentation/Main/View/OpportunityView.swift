@@ -11,21 +11,28 @@ import SwiftUI
 struct OpportunityView: View {
     @ObservedObject var viewModel = OpportunityViewModel()
     
-    var body: some View {
-        ZStack {
-            Color.green.edgesIgnoringSafeArea(.all)
-            NavigationView {
-                List() {
-                    ForEach (viewModel.listOfOpportunities) { opportunity in
-                        OpportunityCell(opportunity: opportunity, viewModel: self.viewModel)
+    @State private var showModal: Bool = false
+    @State private var opportunitySelected: Opportunity?
+    
+    var body: some View {        
+        NavigationView {
+            List {
+                ForEach (viewModel.listOfOpportunities) { opportunity in
+                    OpportunityCell(opportunity: opportunity, viewModel: self.viewModel)
+                    .onTapGesture {
+                        self.showModal.toggle()
+                        self.opportunitySelected = opportunity
                     }
-                    .listStyle(PlainListStyle())
-                }.onAppear {
-                    UITableView.appearance().separatorStyle = .none
-                    self.populateOpportunityList()
                 }
-                .navigationBarTitle(Text("Vagas"), displayMode: .automatic)
+                .listStyle(DefaultListStyle())
+            }.sheet(isPresented: $showModal) {
+                OpportunityDetailsView(opportunity: self.opportunitySelected)
+            }.onAppear {
+                UITableView.appearance().separatorStyle = .none
+                UITableView.appearance().showsVerticalScrollIndicator = false
+                self.populateOpportunityList()
             }
+            .navigationBarTitle(Text("Vagas"), displayMode: .inline)
         }
     }
     
